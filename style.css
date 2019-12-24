@@ -1,0 +1,167 @@
+
+body { 
+	background-color: red;
+}
+
+body {
+	margin: 0;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+  
+  .app {
+	width: 100%;
+	max-width: 600px;
+	margin: 100px auto;
+	width: 80%;
+	
+	&__title {
+	  display: block;
+	  max-width: 600px;
+	  width: 80%;
+	  margin: 0 auto 20px;
+	  padding: 10px;
+	  box-sizing: border-box;
+	  color: #212121;
+	  font-size: 18px;
+	  font-weight: 600;
+	  line-height: 1px;
+	}
+  }
+  
+  .form {
+	display: flex;
+	flex-direction: row;
+	max-width: 600px;
+	width: 80%;
+	margin: 0 auto;
+  }
+  
+  .input {
+	outline: none;
+	background: #FFFFFF;
+	width: 100%;
+	height: 40px;
+	border: 1px solid #EEEEEE;
+	border-radius: 2px;
+	margin: 0 10px;
+	padding: 0 20px;
+	box-sizing: border-box;
+	
+	&:focus {
+	  border-color: #2B87DA;
+	}
+	
+	&--error {
+	  border-color: #EF5555;
+	}
+  }
+  
+  .textarea {
+	outline: none;
+	display: block;
+	background: #FFFFFF;
+	width: 100%;
+	height: 200px;
+	border: 1px solid #EEEEEE;
+	border-radius: 2px;
+	margin: 0 10px;
+	padding: 20px;
+	box-sizing: border-box;
+	line-height: 18px;
+	
+	&:focus {
+	  border-color: #2B87DA;
+	}
+  }
+  
+  .button {
+	outline: none;
+	background: #2B87DA;
+	height: 40px;
+	border: 0;
+	border-radius: 2px;
+	margin: 0 10px;
+	padding: 0 20px;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	font-weight: 600;
+	letter-spacing: 0.7px;
+	text-transform: uppercase;
+	white-space: nowrap;
+	cursor: pointer;
+  }
+  
+  .results {
+	display: flex;
+	flex-direction: row;
+	max-width: 600px;
+	width: 80%;
+	margin: 20px auto 0;
+  }
+  
+  .examples {
+	max-width: 600px;
+	width: 80%;
+	border-top: 1px solid #EEEEEE;
+	margin: 40px auto 0;
+	padding: 40px 10px 0;
+	box-sizing: border-box;
+	
+	&__title {
+	  margin: 0 0 10px;
+	  color: #444444;
+	  line-height: 1;
+	  font-size: 14px;
+	  font-weight: 600;
+	}
+	
+	&__content {
+	  padding: 10px 0;
+	  overflow: auto;
+	  -webkit-overflow-scrolling: touch;
+	  white-space: nowrap;
+	}
+	
+	&__item {
+	  position: relative;
+	  display: inline-block;
+	  width: 200px;
+	  height: 120px;
+	  border: 1px solid #EEEEEE;
+	  border-radius: 2px;
+	  margin: 0 10px;
+	  overflow: hidden;
+	  
+	  &:before {
+		content: '';
+		z-index: 1;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: transparent;
+		width: 100%;
+		height: 100%;
+	  }
+	  
+	  &:first-child {
+		margin-left: 0;
+	  }
+	  
+	  &:last-child {
+		margin-right: 0;
+	  }
+	  
+	  iframe {
+		width: 400%;
+		height: 400%;
+		border: 0;
+		transform: scale(0.25);
+		transform-origin: top left;
+	  }
+	}
+  }

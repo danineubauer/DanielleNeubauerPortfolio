@@ -1,12 +1,13 @@
+
 var aText = new Array(
-    "Hey you!", 
-    "I'm Danielle Neubauer.", // add your text
-    "A full-stack developer.", // add your text
-    "Together we can:",
-    "architect, engineer & revive", // add your text
-    "your greatest dreams & visions", // add your text
+    " ",
+    "I'm a full-stack developer based in Berkeley, California.", // add your text
+    "Together we can architect, engineer & revive", // add your text
+    "your greatest dreams & visions.", // add your text
+    " ",
+    "  ",
     );
-    var iSpeed = 100; 
+    var iSpeed = 50; 
     var iIndex = 0; 
     var iArrLength = aText[0].length; 
     var iScrollAt = 20; 
@@ -15,8 +16,7 @@ var aText = new Array(
     var sContents = ''; 
     var iRow; 
      
-    function typewriter()
-    {
+    const typewriter = function() {
      sContents =  ' ';
      iRow = Math.max(0, iIndex-iScrollAt);
      var destination = document.getElementById("typedtext");
@@ -35,6 +35,13 @@ var aText = new Array(
      } else {
       setTimeout("typewriter()", iSpeed);
      }
-    }
-
+}
 typewriter();
+
+const button = function() { 
+    $('#button').append('<button>button</button>');
+}
+setTimeout(button, 10000);
+
+
+

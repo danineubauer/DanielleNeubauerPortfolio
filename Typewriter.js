@@ -51,11 +51,12 @@ setTimeout(button, 6300);
 
 
 
-
+//MENU SIDE 
 const menu = document.querySelector('#toggle');  
 const menuItems = document.querySelector('#overlay');  
 const menuContainer = document.querySelector('.menu-container');  
-const menuIcon = document.querySelector('i');  
+const menuIcon = document.querySelector('i'); 
+const homePage = document.getElementById('homePageElement'); 
 
 function toggleMenu(e) {
     menuItems.classList.toggle('open');
@@ -65,8 +66,13 @@ function toggleMenu(e) {
     e.preventDefault();
 }
 
+function homePageMenu() { 
+    homePage.style.visibility = 'hidden';
+}
+
 menu.addEventListener('click', toggleMenu, false);
 
+menu.addEventListener('click', homePageMenu);
 
 
 

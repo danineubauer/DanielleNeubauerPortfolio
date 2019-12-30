@@ -16,8 +16,8 @@ body {
 
   .snow {
 	position: absolute;
-	width: 15px;
-	height: 15px;
+	width: 5px;
+	height: 5px;
 	background: rgb(255, 255, 255);
 	border-radius: 50%;
 	filter: drop-shadow(0 0 10px #fcf802);
@@ -2634,6 +2634,8 @@ h3 {
 	filter: drop-shadow(0 0 10px #6883bc);
 	font-size: 40px;
 	margin-bottom: 5px;
+	margin-left: 70px;
+
 }
 
   h1 { 
@@ -2643,14 +2645,19 @@ h3 {
 	filter: drop-shadow(0 0 10px #6883bc);
 	font-size: 70px;
 	margin-bottom: 5px;
+	margin-left: 70px;
+
 
 }
 
 h2 { 
 	color:  rgb(252, 249, 249); 
 	text-align: left;
+	margin-left: 20px;
 	font-family: 'Abel', sans-serif;
-		filter: drop-shadow(0 0 10px #6883bc);
+	filter: drop-shadow(0 0 10px #6883bc);
+	margin-left: 70px;
+
 }
 
 
@@ -2973,7 +2980,7 @@ body {
   .arrow {
 	cursor: pointer;
 	height: 120px;
-	left:90%;
+	left:85%;
 	position: relative;
 	top: 70%;
 	transform: translateX(-50%) translateY(-50%);

@@ -8,10 +8,16 @@ body {
 	overflow: hidden;
   }
   
+  .snow:hover { 
+	  background: #bb0000;
+	  width: 40px;
+	  height: 40px;
+  }
+
   .snow {
 	position: absolute;
-	width: 20px;
-	height: 20px;
+	width: 15px;
+	height: 15px;
 	background: rgb(255, 255, 255);
 	border-radius: 50%;
 	filter: drop-shadow(0 0 10px #fcf802);
@@ -2620,22 +2626,31 @@ body {
   
 
 
+h3 { 
 
+	color: #e0e0e0; 
+	text-align: left;
+	font-family: 'Martel', serif;
+	filter: drop-shadow(0 0 10px #6883bc);
+	font-size: 40px;
+	margin-bottom: 5px;
+}
 
   h1 { 
 	color: rgb(252, 249, 249); 
-	text-align: center;
+	text-align: left;
 	font-family: 'Martel', serif;
 	filter: drop-shadow(0 0 10px #6883bc);
+	font-size: 70px;
+	margin-bottom: 5px;
 
 }
 
 h2 { 
-	color:  rgb(248, 246, 246); 
-	text-align: center;
+	color:  rgb(252, 249, 249); 
+	text-align: left;
 	font-family: 'Abel', sans-serif;
 		filter: drop-shadow(0 0 10px #6883bc);
-
 }
 
 
@@ -2653,22 +2668,51 @@ h2 {
 	height: 50px;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: left;
 	flex-direction: column;
 	background-color: rgba(255, 255, 255, 0.007);
-	border: 2px solid white;
+	border: 3px solid white;
 	color: white; 
-  }
-
-  #button:hover {
-	  background-color: #007bb5;
-	  color: #8a307f; 
-	  border: 2px solid #8a307f;
-
+	border-radius: 5%;
+	padding-left: 12px;
   }
 
 
 
+  
+/* Pulse Grow */
+@-webkit-keyframes hvr-pulse-grow {
+	to {
+	  -webkit-transform: scale(1.1);
+	  transform: scale(1.1);
+	}
+  }
+  @keyframes hvr-pulse-grow {
+	to {
+	  -webkit-transform: scale(1.1);
+	  transform: scale(1.1);
+	}
+  }
+  #button {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  #button, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+	-webkit-animation-name: hvr-pulse-grow;
+	animation-name: hvr-pulse-grow;
+	-webkit-animation-duration: 0.3s;
+	animation-duration: 0.3s;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+  }
+  
 
 .icon-bar {
 	position: fixed;
@@ -2692,7 +2736,7 @@ h2 {
   
   /* Style the social media icons with color, if you want */
   .icon-bar a:hover {
-	background-color: #000;
+	background-color: #8a307f;
   }
   
   .facebook {
@@ -2719,3 +2763,5 @@ h2 {
 	background: #bb0000;
 	color: white;
   }
+
+

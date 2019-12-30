@@ -4,12 +4,11 @@ window.onload = function(){
 
 
 var aText = new Array(
-    " ",
     "I'm a full-stack developer based in Berkeley, California.", // add your text
     "Together we can architect, engineer & revive", // add your text
     "your greatest dreams & visions.", // add your text
     );
-    var iSpeed = 40; 
+    var iSpeed = 30; 
     var iIndex = 0; 
     var iArrLength = aText[0].length; 
     var iScrollAt = 20; 
@@ -46,7 +45,7 @@ const button = function() {
     document.getElementById('button').style.visibility = 'visible'
 }
 
-setTimeout(button, 9000);
+setTimeout(button, 6300);
 
 
 

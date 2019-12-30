@@ -1,6 +1,4 @@
-window.onload = function(){
-    document.getElementById("button").style.visibility = "hidden";
-}
+
 
 
 var aText = new Array(
@@ -42,8 +40,10 @@ typewriter();
 
 
 const button = function() { 
-    document.getElementById('button').style.visibility = 'visible'
+    document.getElementById('button').style.visibility = 'visible';
+    document.getElementById('arrow').style.visibility = 'visible';
 }
+
 
 setTimeout(button, 6300);
 

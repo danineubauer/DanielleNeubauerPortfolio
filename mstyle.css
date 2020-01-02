@@ -1,4 +1,6 @@
 
+
+
 /*********************************SOCIAL MEDIA LINKS!********************************/
 .icon-bar {
 	position: fixed;
@@ -69,14 +71,14 @@
 body {
 	margin: 0;
 	height: 100%;
-	overflow: hidden;
+	/* overflow: hidden; */
   }
   
   .container {
 	width: 100%;
 	height: 100vh;
 	margin: 0 auto;
-	overflow: hidden;
+	/* overflow: hidden; */
   }
   
   .menu-container {
@@ -135,7 +137,7 @@ body {
 	height: 0%;
 	opacity: 0;
 	visibility: hidden;
-	overflow: hidden;
+	/* overflow: hidden; */
   }
   .overlay.open {
 	opacity: .9;
@@ -186,7 +188,7 @@ body {
 	position: relative;
 	color: #fff;
 	text-decoration: none;
-	overflow: hidden;
+	/* overflow: hidden; */
 	opacity: 0.7;
 	transform: scale(1);
 	transition: all 0.3s;
@@ -344,7 +346,7 @@ body {
 body {
 	height: 100vh;
 	background: radial-gradient(ellipse at bottom, #8a307f 0%, #79a7d3  100%);
-	overflow: hidden;
+	/* overflow: hidden; */
   }
   
   .snow:hover { 
@@ -3121,14 +3123,14 @@ h2 {
 body {
   margin: 0;
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .container {
   width: 100%;
   height: 100vh;
   margin: 0 auto;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .menu-container {
@@ -3187,7 +3189,7 @@ body {
   height: 0%;
   opacity: 0;
   visibility: hidden;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .overlay.open {
   opacity: .9;
@@ -3238,7 +3240,7 @@ body {
   position: relative;
   color: #fff;
   text-decoration: none;
-  overflow: hidden;
+  /* overflow: hidden; */
   opacity: 0.7;
   transform: scale(1);
   transition: all 0.3s;
@@ -3306,3 +3308,96 @@ body {
 }
 
 
+
+
+
+
+
+/******************************MAIN CONTENT***************************/
+
+.section-two { 
+	width: 100%;
+	background-color: white;
+}
+
+.et-hero-tabs,
+.et-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background: #eee;
+  text-align: center;
+  padding: 0 2em;
+}
+
+.et-hero-tabs h1,
+.et-slide h1 {
+  font-size: 2rem;
+  margin: 0;
+  letter-spacing: 1rem;
+}
+.et-hero-tabs h3,
+.et-slide h3 {
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
+  opacity: 0.6;
+}
+
+.et-hero-tabs-container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  z-index: 10;
+}
+.et-hero-tabs-container--top {
+  position: fixed;
+  top: 0;
+}
+
+.et-hero-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  color: #000;
+  letter-spacing: 0.1rem;
+  transition: all 0.5s ease;
+  font-size: 0.8rem;
+}
+.et-hero-tab:hover {
+  color: white;
+  background: rgba(102, 177, 241, 0.8);
+  transition: all 0.5s ease;
+}
+
+.et-hero-tab-slider {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 6px;
+  background: #66B1F1;
+  transition: left 0.3s ease;
+}
+
+@media (min-width: 800px) {
+  .et-hero-tabs h1,
+  .et-slide h1 {
+    font-size: 3rem;
+  }
+  .et-hero-tabs h3,
+  .et-slide h3 {
+    font-size: 1rem;
+  }
+
+  .et-hero-tab {
+    font-size: 1rem;
+  }
+}

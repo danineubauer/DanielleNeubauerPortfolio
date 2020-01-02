@@ -76,6 +76,10 @@ $(menu).click(function(){
 })
 
 
+$('#button').click(function() { 
+    $
+})
+
 
 
 

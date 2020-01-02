@@ -36,3 +36,39 @@ var rotateText = function () {
 };
 rotateText();
 setInterval(rotateText, 1000);
+
+
+
+
+
+
+
+//************************Menu on the right*****************/
+
+//MENU ON THE RIGHT SIDE 
+const menu = document.querySelector('#toggle');  
+const menuItems = document.querySelector('#overlay');  
+const menuContainer = document.querySelector('.menu-container');  
+const menuIcon = document.querySelector('i'); 
+const homePage = document.getElementById('homePageElement'); 
+
+function toggleMenu(e) {
+    menuItems.classList.toggle('open');
+    menuContainer.classList.toggle('full-menu');
+    menuIcon.classList.toggle('fa-bars');
+    menuIcon.classList.add('fa-times');
+    e.preventDefault();
+}
+
+menu.addEventListener('click', toggleMenu, false);
+
+//----------Toggles between homepage and menu-------------
+$(menu).click(function(){ 
+    $('#homePageElement').toggle();
+    $('.icon-bar').toggle(); 
+    $('.arrow').toggle();
+})
+
+
+
+

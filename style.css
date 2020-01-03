@@ -2642,6 +2642,8 @@ h3 {
 	color: rgb(252, 249, 249); 
 	text-align: left;
 	font-family: 'Martel', serif;
+	/* font-family: 'Dancing Script', cursive; */
+
 	filter: drop-shadow(0 0 10px #6883bc);
 	font-size: 70px;
 	margin-bottom: 5px;

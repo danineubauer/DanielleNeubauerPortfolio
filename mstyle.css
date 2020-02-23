@@ -3929,10 +3929,13 @@ h1, h2 {
     transform: rotateY(0deg);
     background: -webkit-linear-gradient(top left, #84DD63, #009970);
     background: linear-gradient(to bottom right, #84DD63, #009970);
-    text-align: center;
+	text-align: center;
 }
 
+
+	
 .card-img { 
+	display: inline-block;
 	height: 258px;
 	width: 218px;
 	border: 0;
@@ -3940,6 +3943,7 @@ h1, h2 {
 	margin: 0px;
 	padding: 0;
 	position: 0;
+	position: relative; 
 }
 
 .back {
@@ -3965,12 +3969,12 @@ h1, h2 {
     border: 5px solid #B2DBBF;
     border-radius: 50%;
     display: inline-block;
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 .front .name {
     display: inline-block;
     font-size: 18px;
-    color: #fff;
+	color: black;
 }
 .front .job {
     color: #fff;
@@ -3986,7 +3990,7 @@ h1, h2 {
     height: 33px;
     width: 33px;
     margin-top: 15px;
-    color: white;
+    color: black;
 }
 .back .icon:hover {
     cursor: pointer;

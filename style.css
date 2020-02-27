@@ -1,3 +1,4 @@
+
 /********************************* MY INTRO ********************************/
 .helloIm { 
 
@@ -120,12 +121,26 @@
 	margin-top: 50px;
 	font-size: 20px;
 }
-.aboutMe { 
+.aboutMe 
+{ 
 	margin-top: 50px;
 	font-size: 30px;
 }
 
+.skillsTitle { 
+	margin-top: 80px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-size: 30px;
+	padding: 0px;
+	border: 0px;
+}
 
+.levelBars { 
+	margin-top: 0px;
+	justify-content: left;
+	align-content: left;
+}
 
 
 

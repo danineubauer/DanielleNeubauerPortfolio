@@ -142,6 +142,11 @@
 	align-content: left;
 }
 
+.skillName { 
+	margin-bottom: 0px;
+	justify-content: center;
+	text-align: center;
+}
 
 
 
@@ -3369,21 +3374,21 @@ html {
 
 /******************************MAIN CONTENT***************************/
 
+
 .section-two { 
 	width: 100%;
 	background-color: white;
 }
 
 
-
 .et-hero-tabs,
 .et-slide {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	position: relative;
   background: #eee;
   text-align: center;
   padding: 0 2em;
@@ -3391,20 +3396,21 @@ html {
 
 .et-hero-tabs h1,
 .et-slide h1 {
-  font-size: 2rem;
-  margin: 0;
-  letter-spacing: 1rem;
+	font-size: 2rem;
+	margin: 0;
+	letter-spacing: 1rem;
 }
 .et-hero-tabs h3,
 .et-slide h3 {
-  font-size: 1rem;
-  letter-spacing: 0.3rem;
-  opacity: 0.6;
+	font-size: 1rem;
+	letter-spacing: 0.3rem;
+	opacity: 0.6;
 }
 
+
 .et-hero-tabs-container {
-  display: flex;
-  flex-direction: row;
+	display: flex;
+	flex-direction: row;
   position: absolute;
   bottom: 0;
   width: 100%;

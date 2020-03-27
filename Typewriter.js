@@ -347,7 +347,7 @@ $('#button').click(function() {
 
 
 
-//-------------------------------------------Navigation bar and layout----------------------------------//
+//----------------------------------------------------Navigation bar and layout-------------------------------------------//
 
 class StickyNavigation {
 	
@@ -362,12 +362,13 @@ class StickyNavigation {
 		$(window).scroll(() => { this.onScroll(); });
 		$(window).resize(() => { this.onResize(); });
 	}
-	
-	onTabClick(event, element) {
-		event.preventDefault();
-		let scrollTop = $(element.attr('href')).offset().top - this.tabContainerHeight + 1;
-		$('html, body').animate({ scrollTop: scrollTop }, 600);
-	}
+  
+  // changed: 
+	// onTabClick(event, element) {
+	// 	event.preventDefault();
+	// 	let scrollTop = $(element.attr('href')).offset().top - this.tabContainerHeight + 1;
+	// 	$('html, body').animate({ scrollTop: scrollTop }, 600);
+	// }
 	
 	onScroll() {
 		this.checkTabContainerPosition();

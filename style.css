@@ -117,9 +117,12 @@
 /*****************************************About Me*****************************************/ 
 
 
-.bio { 
+#bio { 
 	margin-top: 50px;
 	font-size: 20px;
+	letter-spacing: 0rem;
+	line-height: 1.5;
+
 }
 .aboutMe 
 { 
@@ -3587,7 +3590,7 @@ html {
   }
   .et-hero-tabs h3,
   .et-slide h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .et-hero-tab {
@@ -8037,3 +8040,8 @@ h1, h2 {
   }
   
 
+
+
+
+
+  

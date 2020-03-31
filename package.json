@@ -18,6 +18,7 @@
   "homepage": "https://github.com/danineubauer/DanielleNeubauerPortfolio#readme",
   "dependencies": {
     "fs": "0.0.1-security",
+    "gitignore": "^0.6.0",
     "html": "^1.0.0"
   }
 }

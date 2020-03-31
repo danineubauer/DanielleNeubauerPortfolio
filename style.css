@@ -4023,9 +4023,9 @@ h1, h2 {
 
 /******************************************Portfolio Cards***************************************/
 
+
 #cards {
 
-    margin-top: 120px;
     -webkit-perspective: 800px;
             perspective: 800px;
 	text-align: center;
@@ -8045,3 +8045,33 @@ h1, h2 {
 
 
   
+
+
+  
+/* Centering text on card */
+
+.projectCard { 
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.centeredCardText { 
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

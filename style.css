@@ -1,4 +1,21 @@
 
+#cardTitle { 
+	letter-spacing: 0rem;
+}
+
+.showMeButton { 
+	letter-spacing: 0rem;
+	padding: 5px;
+	margin:5px;
+	border-radius: 10%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.showMeButton:hover { 
+	text-decoration: none;
+	opacity: 0.5;
+	
+}
+
 /********************************* MY INTRO ********************************/
 .helloIm { 
 
@@ -3406,7 +3423,7 @@ html {
 .et-hero-tabs h3,
 .et-slide h3 {
 	font-size: 1rem;
-	letter-spacing: 0.3rem;
+	letter-spacing: 0rem;
 	opacity: 0.6;
 }
 
@@ -4084,12 +4101,12 @@ h1, h2 {
 }
 
 .back {
-    background: -webkit-linear-gradient(top left, #009970, #84DD63);
-    background: linear-gradient(to bottom right, #009970, #84DD63);
+    background: -webkit-linear-gradient(top left, #6883bc, #8a307f);
+    background: linear-gradient(to bottom right, #6883bc, #8a307f);
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
     padding: 40px 15px;
-    color: #fff;
+	color: #fff;
 }
 .card:hover .front {
     -webkit-transform: rotateY(-180deg);
@@ -8062,6 +8079,14 @@ h1, h2 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
+
+#reactMemoGame  {
+	border-radius: 8px;
+}
+
+
 
 
 

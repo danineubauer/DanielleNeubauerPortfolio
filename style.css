@@ -1,4 +1,40 @@
 
+
+.btn-hldr .main-btn {
+    font-size: .7em;
+    text-align: center;
+    /* display: block; */
+    position: relative;
+    background: #45b29a;
+    padding: 1em 1em 1em 1em;
+    color: #1b7f69;
+    text-decoration: none;
+	/* margin:  1.5em 0 0; */
+	/* margin-top: 2em; */
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 0;
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	text-transform: uppercase;
+	width: 200px;
+}
+
+.btn-hldr:hover { 
+	opacity: 0.9;
+}
+
+
+
+i.email {
+    position: absolute;
+    height: 15px;
+    width: 24px;
+    left: 11%;
+    top: 33%;
+    background-image: url(../img/content/home/contact/mail.png);
+}
+
 #cardTitle { 
 	letter-spacing: 0rem;
 }
@@ -3629,9 +3665,9 @@ html {
 /********************************* CONTACT FORM **********************************/
 
 h1, h2 {
-	font-weight: 700;
+	/* font-weight: 700; */
 	color: #FFF;
-	font-weight: 700;
+	/* font-weight: 700; */
 	font-size: 4em;
 	margin: 0;
 	padding: 0 20px;
@@ -8015,6 +8051,11 @@ h1, h2 {
 
 #reactMemoGame  {
 	border-radius: 8px;
+}
+
+
+.copywrite { 
+	text-align: center;
 }
 
 

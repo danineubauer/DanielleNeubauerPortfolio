@@ -8,9 +8,9 @@ h5 {
     text-align: center;
     /* display: block; */
     position: relative;
-    background: #45b29a;
+    background: #8a307f;
     padding: 1em 1em 1em 1em;
-    color: #1b7f69;
+    color: white;
     text-decoration: none;
 	/* margin:  1.5em 0 0; */
 	/* margin-top: 2em; */
@@ -63,8 +63,9 @@ i.email {
 	font-family: 'Martel', serif;
 	filter: drop-shadow(0 0 10px #6883bc);
 	font-size: 50px;
+	margin-top: 50px;
 	margin-bottom: 5px;
-	margin-left: 20px;
+	margin-left: 40px;
 
 }
 
@@ -396,25 +397,18 @@ body {
 	h1 {
 	  font-size: 3em;
 	  font-family: "Titan One", san-serif;
-
 	}
   }
   @media all and (max-width: 480px) {
 	h1 {
 	  font-size: 2em;
 	  font-family: "Titan One", san-serif;
+
 	}
   }
   
   
   
-  
-
-
-
-
-
-
 
 
 
@@ -474,19 +468,6 @@ body {
 .sun-flower {
   color: #f1c40f;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3448,7 +3429,7 @@ html {
 	align-items: center;
 	height: 100vh;
 	position: relative;
-  background: #eee;
+  background: white;
   text-align: center;
   padding: 0 2em;
 }
@@ -3572,13 +3553,15 @@ html {
 
 .et-hero-tabs,
 .et-slide {
+	color: rgb(80, 79, 79)
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   position: relative;
-  background: #eee;
+  background: #fff;
   text-align: center;
   padding: 0 2em;
 }
@@ -3598,6 +3581,7 @@ html {
 
 .et-hero-tabs-container {
   display: flex;
+
   flex-direction: row;
   position: absolute;
   bottom: 0;
@@ -3669,8 +3653,9 @@ html {
 
 h1, h2 {
 	/* font-weight: 700; */
-	color: #FFF;
 	/* font-weight: 700; */
+	color: rgb(80, 79, 79)
+
 	font-size: 4em;
 	margin: 0;
 	padding: 0 20px;
@@ -3807,7 +3792,9 @@ h1, h2 {
   }
   #form-head .pre {
 	display: block;
-  }
+
+}
+
   #form-head .post {
 	display: none;
   }
@@ -4489,14 +4476,6 @@ body {
     font-size: 1rem;
   }
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -7581,13 +7560,17 @@ body {
 @media all and (max-width: 980px) {
   h1 {
     font-size: 3em;
-    font-family: "Titan One", san-serif;
+	font-family: "Titan One", san-serif;
+	color: rgb(80, 79, 79)
+
   }
 }
 @media all and (max-width: 480px) {
   h1 {
     font-size: 2em;
-    font-family: "Titan One", san-serif;
+	font-family: "Titan One", san-serif;
+	color: rgb(80, 79, 79)
+
   }
 }
 
@@ -7671,7 +7654,7 @@ body {
 
 h1, h2 {
 	font-weight: 700;
-	color: #FFF;
+	color: rgb(80, 79, 79)
 	font-weight: 700;
 	font-size: 4em;
 	margin: 0;
@@ -7798,7 +7781,6 @@ h1, h2 {
 	font-size: 100%;
 	padding: 0;
 	margin: 0 20px;
-	color: #FFF;
 	text-align: center;
 	transition: all 0.8s 0.6s;
   }
@@ -7967,6 +7949,8 @@ h1, h2 {
   
 	h1 {
 	  font-size: 300%;
+	  color: rgb(80, 79, 79)
+
 	}
   
 	.icon:hover::before {
